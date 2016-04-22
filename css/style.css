@@ -1,0 +1,451 @@
+
+/*------- [ Header ] --------*/
+
+header {
+	width:100%;
+	background-color: #656565;
+	position:fixed;
+	top: 0;
+	z-index: 500;
+	}
+.container{
+	width: 940px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	overflow:hidden;
+	clear: both;
+	}
+.branding {
+	float: left;
+	width: 20%;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+	text-transform: uppercase;
+	padding-top: 13.5px;
+	}
+.branding a:link {
+	color: #ffffff;
+	text-decoration: none;
+	outline: 0;
+	}
+.branding a:visited {
+	color: #ffffff;
+	text-decoration: none;
+	outline: 0;
+	}
+.branding a:hover {
+	color: #fc5f21;
+	}
+.branding a:active {
+	color: #fc5f21;
+	}
+
+    .hero-video {
+		width: 100%;
+		max-height: 580px;
+		overflow: hidden;
+		}
+		
+.image-overlay {
+	position: absolute;
+	top: 136px;
+	height: 550px;
+	width: 940px;
+	z-index: 100;
+	background: url("../images/imac.png");
+	background-position: bottom;
+	background-repeat: no-repeat;
+	overflow: visible;
+	}
+.image-overlay h2 {
+	font-weight: 100;
+	line-height: 1.2;
+	text-align: center;
+	text-transform: uppercase;
+	}
+
+
+
+/*------- [ Horizontal Navigation ] --------*/
+
+nav {
+	float: right;
+}
+nav ul {
+	margin: 0;
+	padding: 20px 0;
+	list-style-type: none;
+	text-align: right;
+	}
+nav li {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+	font-size: .8em;
+	letter-spacing: .1em;
+	text-transform: uppercase;
+	display: inline;
+	padding-left: 20px;
+	color: #efefef;
+	cursor: pointer;
+	}
+
+
+/*------- [ Hero Video ] --------*/
+
+
+/*------- [ Introduction ] --------*/
+
+#introduction {
+	width: 100%;
+	padding: 120px 0 100px 0;
+	background-color: #ffffff;
+}
+.intro-content h3 {
+	margin-top: 10px;
+}
+	
+	/*------ [ About Us ]------*/
+	
+#about {
+		width:100%;
+		padding:100px 0;
+		background-color: #EFEFEF;
+		float: left;
+	}
+		
+#about .rectangle-btn a:link {
+	margin: 0;
+}
+	
+	/*----- { Button }-----*/
+	
+.rectangle-btn a:link {
+	width: 100px;
+	height: 25px;
+	display: block;
+	border: 1px solid #2f2f2f;
+	padding: 10px 20px;
+	font-size: 1em;
+	font-weight: 500;
+	text-transform: uppercase;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+}
+
+.rectangle-btn a:hover {
+	background: #ffffff;
+	color: #2f2f2f;
+}
+
+/*----- Features -----*/
+
+#features {
+	width: 100%;
+    padding: 150px 0;
+    background-color: #ffffff;
+	float: left;
+}
+.feature-items {
+	margin-bottom: 15px;
+}
+
+.feature-items h4 {
+	text-align: left;
+	margin-left: 60px;
+}
+
+.feature-items p {
+	margin-bottom: 20px;
+	margin-left: 60px;
+	text-align:left; 
+}
+
+.feature-items img {
+	margin-top: 5px
+}
+
+.feature-items a:link {
+	color: cacaca;
+	text-decoration: none;
+}
+
+.feature-items a:visited {
+	color: cacaca;
+}
+
+.feature-items a:hover {
+	color: #000000;
+}
+	
+.feature-items a:active {
+	color: #000000;
+}
+
+.fa-github,
+.fa-html5,
+.fa-wrench,
+.fa-file-pdf-o,
+.fa-codepen {
+	color: #696969;
+	font-size: 2.5em;
+	margin-bottom: 10px;
+}
+
+.fa-css3 {
+	color: #696969;
+	font-size: 2.3em;
+	margin-bottom: 10px;
+}
+
+hr {
+	margin-bottom: 10px;
+}
+
+/* ------- [ Membership Subscription } ------- */
+#memberships {
+	width: 100%;
+	padding: 150px;
+	background-color: #eeeeee;
+	float: left;
+	}
+	
+#memberships h2 {
+	font-weight: 100;
+	color: #525252;
+	text-align: center;
+	}
+		
+#memberships p {
+	font-size: 1.5em;
+	font-weight: 100;
+	color: #888888;
+	text-align: center;
+	}	
+	
+.membership-plans {
+	margin-top: 40px;
+	}
+	
+.membership-free,
+.membership-monthly,
+.membership-yearly {
+	font-size: 2em;
+	color: #ffffff;
+	text-align: center;
+	padding: 20px 0;
+	}
+	
+.membership-free {
+	background-color: #a3a3a3;
+	}
+	
+.membership-monthly {
+	background-color: #6e6e6e;
+	}
+	
+.membership-yearly {
+	background-color: #a3a3a3;
+	}
+	
+.membership-cost {
+	font-size: 1.2em;
+	color: #000000;
+	font-weight: 900;
+	text-align: center;
+	padding: 10px 0;
+	background-color: #DEDEDE;
+	}
+	
+.membership-features {
+	font-size: 1.2em;
+	color: #888888;
+	text-align: center;
+	padding: 30px 0 20px 0;
+	background-color: #f6f6f6;
+	}
+	
+.membership-features ul {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	line-height: 1.5;
+	}
+	
+.membership-features li {
+	list-style: none outside none;
+	padding: 0 20px 10px 20px;
+	}
+	
+.membership-btn {
+	margin: 30px auto;
+	}
+	
+.membership-btn a:link {
+	outline: 0;
+	border-radius: 5px;
+	background_color: #dedede;
+	padding: 10px 30px;
+	font-size: .9em;
+	font-weight: 100;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #515255;
+	}
+	
+.membership-btn a:visited {
+	color: #ffffff;
+	}
+	
+.membership-btn a:hover {
+	background-color: black;
+	color: #ababab;
+	}
+	
+.membership-btn a:active {
+	color: #ababab;
+	}
+	
+
+#contact {
+	width: 100%;
+	padding: 100px 0;
+	background-color: #efefef;
+	float: left;
+	}
+	
+#contact h2 {
+	padding-bottom: 20px;
+	}
+		
+#contact p {
+	padding-top: 20px;
+	}	
+	
+.contact-form img {
+	width: 460px;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	font-size: 0.9em;
+	font-weight: 100;
+	color: #FFFFFF;
+	}
+	
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea
+.contact-form select {
+	font-weight: 100;
+	color: #888;
+	padding: 5px 5px 5px 10px;
+	border: 1px solid #DADADA;
+	height: 35px;
+	margin-bottom: 25px;
+	outline: 0 none;
+	width: 460px;
+	}
+	
+.contact-form textarea {
+	height: 200px;
+	}
+	
+#message {
+	height: 262px;
+	}
+	
+.contact-form select {
+	background: #FFF url('down-arrow.png') no-repeat right;
+	background: #FFF url('down-arrow.png') no-repeat right;
+	appearence: none;
+	-webkit-appearence: none;
+	-moz-appearence: none;
+	text-indent: 0.01px;
+	text-overflow: '';
+	width: 100%;
+	height: 35px;
+	}
+	
+.city {
+	text-transform: uppercase;
+	font-weight: 900;
+	}
+	
+.button {
+	display: block;
+	float: right;
+	outline: 0;
+	}
+	
+.contact-form input.button {
+	width: 100px;
+	/*same as the height*/
+	height: 40px;
+	/*same as the width*/
+	background-color: #888;
+	border: 1px solid #ffffff;
+	/*same colour as the background*/
+	color: #FFFFFF;
+	font-size: 1.1em;
+	-webkit-appearence: none;
+	/*set the border-radius at half the width and height*/
+	-webkit-border-radius: 35px;
+	-moz-border-radius: 35px;
+	border-radius: 35px;
+	}
+	
+.contact-form input.button {
+	color: #000000;
+	border: 1px solid #000000;
+	}
+
+/* -------- [ Footer ] --------*/
+
+footer {
+	width: 100%;
+	padding: 50px 0;
+	text-align: center;
+	bakground-color: center;
+	float: left;
+	}
+	
+.footer a:link {
+	text-decoration: none;
+	color: #959595;
+	}
+	
+.footer a:visited {
+	color: #959595;
+	}
+	
+.footer a:hover {
+	color: #ffffff;
+	}
+	
+.footer a:active {
+	color: #ffffff;
+	}
+	
+.copyright {
+	width:100%;
+	color: #959595;
+	}
+	
+.copyright p {
+	margin: 0;
+	}
+	
+.fa-linkin-sqaure,
+.fa-twitter-sqaure,
+.fa-facebook-sqaure {
+	font-size: 2em;
+	margin: 20px 5px 0 5px;
+	color: #959595;
+}
+
+.fa-linkin-sqaure:hover,
+.fa-twitter-sqaure:hover,
+.fa-facebook-sqaure:hover {
+	color: #959595;
+}
+</style>
