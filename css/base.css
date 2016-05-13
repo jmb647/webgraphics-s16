@@ -12,7 +12,7 @@ Version:      0.2
 
 body {
     color: #2F2F2F;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Playfair Display', sans-serif;
     font-style: normal;
     font-weight: 100;
     line-height: 1.6em;
@@ -40,14 +40,14 @@ h6 {
 }
 
 h1 {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Playfair Display', serif;
     font-weight: 700;
     font-size: 4.25em;
     line-height: 1.05em;
 }
 
 h2 {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Playfair Display', serif;
     font-weight: 600;
     /*font-size: 2.625em;*/
     font-size: 3em;
@@ -63,7 +63,7 @@ h3 {
 }
 
 h4 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Playfair Display', sans-serif;
     font-weight: 900;
     font-size: 1em;
     line-height: 1em;
@@ -72,14 +72,14 @@ h4 {
 }
 
 h5 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Playfair Display', sans-serif;
     font-weight: 900;
     font-size: 0.9em;
     line-height: 1em;
 }
 
 h6 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Playfair Displayx', sans-serif;
     font-weight: 900;
     font-size: 0.9em;
     line-height: 1em;

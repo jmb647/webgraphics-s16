@@ -3,7 +3,7 @@
 
 header {
 	width:100%;
-	background-color: #656565;
+	background-color: #8d8471;
 	position:fixed;
 	top: 0;
 	z-index: 500;
@@ -19,7 +19,7 @@ header {
 .branding {
 	float: left;
 	width: 20%;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Playfair Display', sans-serif;
 	font-size: 1em;
 	text-transform: uppercase;
 	padding-top: 13.5px;
@@ -41,32 +41,6 @@ header {
 	color: #fc5f21;
 	}
 
-    .hero-video {
-		width: 100%;
-		max-height: 580px;
-		overflow: hidden;
-		}
-		
-.image-overlay {
-	position: absolute;
-	top: 136px;
-	height: 550px;
-	width: 940px;
-	z-index: 100;
-	background: url("../images/imac.png");
-	background-position: bottom;
-	background-repeat: no-repeat;
-	overflow: visible;
-	}
-.image-overlay h2 {
-	font-weight: 100;
-	line-height: 1.2;
-	text-align: center;
-	text-transform: uppercase;
-	}
-
-
-
 /*------- [ Horizontal Navigation ] --------*/
 
 nav {
@@ -79,7 +53,7 @@ nav ul {
 	text-align: right;
 	}
 nav li {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Playfair Display', serif;
 	font-weight: 600;
 	font-size: .8em;
 	letter-spacing: .1em;
@@ -92,14 +66,38 @@ nav li {
 
 
 /*------- [ Hero Video ] --------*/
+#hero-slide {
+	width: 100%;
+	max-height: 580px;
+	overflow: hidden;
+	float: left;
+	background-size: cover;
+}
 
-
+.image-overlay {
+	position: absolute;
+	top: 165px;
+	height: 550px;
+	width: 900px;
+	z-index:100;
+	padding-top: 60px;
+	}
+	
+.image-overlay h2 {
+	font-weight: 700;
+	line-height: 3.2;
+	text-align: center;
+	text-transform: uppercase;
+	color: #ffffff;
+	background: rgba(0,227,255,0.44);
+	}
 /*------- [ Introduction ] --------*/
 
 #introduction {
 	width: 100%;
-	padding: 120px 0 100px 0;
-	background-color: #ffffff;
+	padding: 50px 0 50px 0;
+	background: url(../images/texture.jpg);
+	float: left;
 }
 .intro-content h3 {
 	margin-top: 10px;
@@ -110,105 +108,76 @@ nav li {
 #about {
 		width:100%;
 		padding:100px 0;
-		background-color: #EFEFEF;
+		background-color:#ffffff;
 		float: left;
 	}
 		
 #about .rectangle-btn a:link {
 	margin: 0;
 }
+	/*----- [Places To Go] -----*/
+#places {
+	width: 100%;
+	padding: 50px 0;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #d47d64;
+}
+
+.container-places {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	}
+
+/*----- [Things To Do] -----*/
+#things {
+	width: 100%;
+	padding: 50px 0;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #ffffff;
+	background: url(../images/texture.jpg);
+}
+
+
 	
 	/*----- { Button }-----*/
 	
 .rectangle-btn a:link {
-	width: 100px;
-	height: 25px;
-	display: block;
-	border: 1px solid #2f2f2f;
-	padding: 10px 20px;
-	font-size: 1em;
-	font-weight: 500;
-	text-transform: uppercase;
-	cursor: pointer;
-	text-align: center;
+	outline: 0;
+	border-radius: 5px;
+	background-color: #c6c360;
+	padding: 10px 30px;
+	font-size: .9em;
+	font-weight: 100;
 	text-decoration: none;
+	text-transform: uppercase;
+	background-color: #71b083;
 }
 
 .rectangle-btn a:hover {
-	background: #ffffff;
-	color: #2f2f2f;
+	background: #5c9169;
+	color: #ffffff;
 }
 
-/*----- Features -----*/
 
-#features {
+ /*----- [hotels} -----*/
+#hotels {
 	width: 100%;
-    padding: 150px 0;
-    background-color: #ffffff;
-	float: left;
-}
-.feature-items {
-	margin-bottom: 15px;
-}
-
-.feature-items h4 {
-	text-align: left;
-	margin-left: 60px;
-}
-
-.feature-items p {
-	margin-bottom: 20px;
-	margin-left: 60px;
-	text-align:left; 
-}
-
-.feature-items img {
-	margin-top: 5px
-}
-
-.feature-items a:link {
-	color: cacaca;
-	text-decoration: none;
-}
-
-.feature-items a:visited {
-	color: cacaca;
-}
-
-.feature-items a:hover {
-	color: #000000;
-}
+	padding: 100px 0;
+	padding-top: 50px;
+	background-color: #71b083;
+	margin-bottom: 25px;
 	
-.feature-items a:active {
-	color: #000000;
 }
-
-.fa-github,
-.fa-html5,
-.fa-wrench,
-.fa-file-pdf-o,
-.fa-codepen {
-	color: #696969;
-	font-size: 2.5em;
-	margin-bottom: 10px;
-}
-
-.fa-css3 {
-	color: #696969;
-	font-size: 2.3em;
-	margin-bottom: 10px;
-}
-
-hr {
-	margin-bottom: 10px;
-}
-
 /* ------- [ Membership Subscription } ------- */
 #memberships {
 	width: 100%;
-	padding: 150px;
-	background-color: #eeeeee;
+	padding: 50px 0;
+	background-color: #ffffff;
 	float: left;
+	background: url(../images/texture2.jpg);
+	margin-top: 50px;
 	}
 	
 #memberships h2 {
@@ -238,15 +207,15 @@ hr {
 	}
 	
 .membership-free {
-	background-color: #a3a3a3;
+	background-color: #D47D64;
 	}
 	
 .membership-monthly {
-	background-color: #6e6e6e;
+	background-color: #6079A5;
 	}
 	
 .membership-yearly {
-	background-color: #a3a3a3;
+	background-color: #D47D64;
 	}
 	
 .membership-cost {
@@ -285,7 +254,7 @@ hr {
 .membership-btn a:link {
 	outline: 0;
 	border-radius: 5px;
-	background_color: #dedede;
+	background-color: #c6c360;
 	padding: 10px 30px;
 	font-size: .9em;
 	font-weight: 100;
@@ -299,19 +268,18 @@ hr {
 	}
 	
 .membership-btn a:hover {
-	background-color: black;
-	color: #ababab;
+	background-color: #ada73a;
+	color: #dedede;
 	}
 	
 .membership-btn a:active {
 	color: #ababab;
 	}
 	
-
 #contact {
 	width: 100%;
-	padding: 100px 0;
-	background-color: #efefef;
+	padding: 50px 0;
+	background-color: #6079a5;
 	float: left;
 	}
 	
@@ -326,7 +294,7 @@ hr {
 .contact-form img {
 	width: 460px;
 	padding: 0;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Playfair Display', sans-serif;
 	font-size: 0.9em;
 	font-weight: 100;
 	color: #FFFFFF;
@@ -339,7 +307,7 @@ hr {
 	font-weight: 100;
 	color: #888;
 	padding: 5px 5px 5px 10px;
-	border: 1px solid #DADADA;
+	border: 1px solid #6079a5;
 	height: 35px;
 	margin-bottom: 25px;
 	outline: 0 none;
@@ -351,15 +319,11 @@ hr {
 	}
 	
 #message {
-	height: 262px;
+	height: 200px;
+	width: 935px;
 	}
 	
 .contact-form select {
-	background: #FFF url('down-arrow.png') no-repeat right;
-	background: #FFF url('down-arrow.png') no-repeat right;
-	appearence: none;
-	-webkit-appearence: none;
-	-moz-appearence: none;
 	text-indent: 0.01px;
 	text-overflow: '';
 	width: 100%;
@@ -371,32 +335,26 @@ hr {
 	font-weight: 900;
 	}
 	
-.button {
-	display: block;
-	float: right;
-	outline: 0;
-	}
 	
 .contact-form input.button {
 	width: 100px;
 	/*same as the height*/
 	height: 40px;
 	/*same as the width*/
-	background-color: #888;
+	background-color: #c6c360;
 	border: 1px solid #ffffff;
 	/*same colour as the background*/
 	color: #FFFFFF;
 	font-size: 1.1em;
-	-webkit-appearence: none;
+	webkit-appearence: none;
 	/*set the border-radius at half the width and height*/
-	-webkit-border-radius: 35px;
-	-moz-border-radius: 35px;
+	webkit-border-radius: 35px;
+	moz-border-radius: 35px;
 	border-radius: 35px;
 	}
 	
 .contact-form input.button {
 	color: #000000;
-	border: 1px solid #000000;
 	}
 
 /* -------- [ Footer ] --------*/
@@ -405,13 +363,13 @@ footer {
 	width: 100%;
 	padding: 50px 0;
 	text-align: center;
-	bakground-color: center;
+	background-color: #3c3c3c;
 	float: left;
 	}
 	
 .footer a:link {
+	color: #6079a5;
 	text-decoration: none;
-	color: #959595;
 	}
 	
 .footer a:visited {
@@ -448,4 +406,114 @@ footer {
 .fa-facebook-sqaure:hover {
 	color: #959595;
 }
-</style>
+
+.fa-linkin-sqaure:hover,
+.fa-twitter-sqaure:hover,
+.fa-facebook-sqaure:hover {
+	color: #ffffff;
+}
+	
+Dd-nameplate {
+	margin: 0 auto;
+	width: 100%;
+	padding: 100px 0;
+	background-color: #282923;
+	color: #ffffff;
+	font-size: .9em;
+	float: left;
+}
+
+.Dd-logo {
+	width: 90px;
+	height: 90px;
+	padding: 27px 20px;
+	float: left;
+	border-top: 1px solid #ffffff;
+	border-left: 1px solid #ffffff;
+	border-right: 1px solid #ffffff;
+}
+
+.Dd-version {
+	width: 90px;
+	height: 30px;
+	padding: 27px 20px;
+	border-top: 1px solid #ffffff;
+	border-left: 1px solid #ffffff;
+	border-bottom: 1px solid #ffffff;
+	border-right: 1px solid #ffffff;
+	float: left;
+	text-align: center;
+}
+
+.Dd-title {
+	width: 820px;
+	height: 30px;
+	padding-left: 20px;
+	border-top: 1px solid #ffffff;
+	border-right: 1px solid #ffffff;
+	float: left;
+	background: #ffffff;
+	padding-left: 20px;
+	text-transform: uppercase;
+	font-weight: 900;
+	padding-top: 4px;
+}
+
+.Dd-title h2 {
+	font-size: 1.2em;
+	padding-top: 0px;
+	color: #282923;
+}
+
+#Dd-client {
+	width: 410px;
+	height: 30px;
+	border-top: 1px solid #ffffff;
+	border-right: 1px solid #ffffff;
+	padding-left: 20px;
+	float: left;
+}
+
+#Dd-contact {
+	width: 410px;
+	height: 30px;
+	border-top: 1px solid #ffffff;
+	border-right: 1px solid #ffffff;
+	padding-left: 20px;
+	float: left;
+}
+
+#Dd-designer {
+	width: 410px;
+	height: 30px;
+	border-top: 1px solid #ffffff;
+	border-right: 1px solid #ffffff;
+	padding-left: 20px;
+	float: left;
+}
+
+#Dd-firm {
+	width: 410px;
+	height: 30px;
+	border-top: 1px solid #ffffff;
+	border-right: 1px solid #ffffff;
+	padding-left: 20px;
+	float: left;
+}
+
+#Dd-copyright {
+	width: 820px;
+	height: 30px;
+	border-top: 1px solid #ffffff;
+	border-bottom: 1px solid #ffffff;
+	border-right: 1px solid #ffffff;
+	padding-left: 20px;
+	float: left;
+}
+
+/*Desktops and Latops----------*/
+@media only screen and (min-width : 1224px) {
+/* Styles */
+	/*Responsive Linebrak set class to display: block;, then swap to display: inline;, for the wider layouts*/
+video {width: 100%; }
+}
