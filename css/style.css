@@ -95,7 +95,7 @@ nav li {
 
 #introduction {
 	width: 100%;
-	padding: 50px 0 50px 0;
+	padding: 100px 0 50px 0;
 	background: url(../images/texture.jpg);
 	float: left;
 }
@@ -118,9 +118,8 @@ nav li {
 	/*----- [Places To Go] -----*/
 #places {
 	width: 100%;
-	padding: 50px 0;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding: 100px 0 100px 0;
+	float: left;
 	background-color: #d47d64;
 }
 
@@ -132,11 +131,10 @@ nav li {
 /*----- [Things To Do] -----*/
 #things {
 	width: 100%;
-	padding: 50px 0;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding: 100px 0 100px 0;
 	background-color: #ffffff;
 	background: url(../images/texture.jpg);
+	float: left;
 }
 
 
@@ -164,20 +162,17 @@ nav li {
  /*----- [hotels} -----*/
 #hotels {
 	width: 100%;
-	padding: 100px 0;
-	padding-top: 50px;
+	padding: 100px 0 100px 0;
 	background-color: #71b083;
-	margin-bottom: 25px;
-	
+	float: left;
 }
 /* ------- [ Membership Subscription } ------- */
 #memberships {
 	width: 100%;
-	padding: 50px 0;
+	padding: 100px 0 100px 0;
 	background-color: #ffffff;
 	float: left;
 	background: url(../images/texture2.jpg);
-	margin-top: 50px;
 	}
 	
 #memberships h2 {
@@ -278,7 +273,7 @@ nav li {
 	
 #contact {
 	width: 100%;
-	padding: 50px 0;
+	padding: 100px 0 100px 0;
 	background-color: #6079a5;
 	float: left;
 	}
